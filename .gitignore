@@ -1,4 +1,11 @@
-files/
-tmp/
-vendor/
+application/Runtime/~runtime.php
+application/Runtime/Cache
+application/Runtime/Cache/*
+application/Runtime/Data
+application/Runtime/Logs
+application/Runtime/Temp
 *.swp
+*.bak
+*.tmp
+Thumbs.db
+Desktop.ini
