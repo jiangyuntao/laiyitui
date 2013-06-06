@@ -1,5 +1,6 @@
 <?php
 return array(
+    /**
     'APP_STATUS' => 'debug',
 
     'SHOW_RUN_TIME'=>true,          // 运行时间显示
@@ -9,11 +10,10 @@ return array(
     'SHOW_USE_MEM'=>true,           // 显示内存开销
     'SHOW_LOAD_FILE' =>true,   // 显示加载文件数
     'SHOW_FUN_TIMES'=>true ,  // 显示函数调用次数
-
-    /**
-    'APP_GROUP_LIST' => 'Home,Admin', //项目分组设定
-    'DEFAULT_GROUP'  => 'Home', //默认分组
     /**/
+
+    'APP_GROUP_LIST' => 'Home,Admin',
+    'DEFAULT_GROUP' => 'Home',
 
     'URL_MODEL' => 2,
     'URL_CASE_INSENSITIVE' => true,
@@ -23,14 +23,11 @@ return array(
 
     'TMPL_STRIP_SPACE' => false,
 
-    'DB_TYPE' => 'mysql',
-    'DB_HOST' => 'localhost',
-    'DB_NAME' => 'laiyitui_com',
+    'DB_TYPE' => 'pdo',
+    'DB_PREFIX' => '',
     'DB_USER' => 'root',
     'DB_PWD' => '',
-    'DB_PORT' => 3306,
-    'DB_PREFIX' => '',
-    'DB_CHARSET' => 'utf8',
+    'DB_DSN' => 'mysql:host=localhost;dbname=laiyitui_com;charset=utf-8',
     'DB_FIELDS_CACHE' => false,
     'DB_FIELDTYPE_CHECK' => true,
 

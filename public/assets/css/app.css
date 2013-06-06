@@ -1,8 +1,7 @@
 body { font: 14px/1.231 arial,helvetica,clean,sans-serif; color: #444; }
-.sw_hdr_img { height: 3px; background: url(http://img.hb.aicdn.com/698f9a272554f4d1b20450118d653611068865701c991-oEQhMP) #0b2237 repeat-x; }
 .pure-button-xsmall { font-size: 70%; }
 .pure-button-small { font-size: 85%; }
-.header { border-bottom: 1px solid #D9D9D9; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0); -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0); box-shadow: 0 1px 3px rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0); }
+.header { border-bottom: 1px solid #D9D9D9; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0); -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0); box-shadow: 0 1px 3px rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0); border-top: 3px solid #0B2237; }
   .header .sign { height: 65x; line-height: 65px; }
 .container { margin: auto; width: 1020px; }
 .content { padding-top: 10px; background: url('../img/bg.gif'); }
