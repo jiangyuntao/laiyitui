@@ -19,6 +19,8 @@ return array(
     'URL_CASE_INSENSITIVE' => true,
     'URL_ROUTER_ON' => true,
     'URL_ROUTE_RULES' => array(
+        'upload' => 'Image/upload',
+        'view/:id' => 'Image/view',
     ),
 
     'TMPL_STRIP_SPACE' => false,
