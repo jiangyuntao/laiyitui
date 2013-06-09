@@ -1,4 +1,8 @@
 body { font: 14px/1.231 arial,helvetica,clean,sans-serif; color: #444; }
+a { color: #259; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.error { color: #DD514C; }
+.home { margin-top: 100px; text-align: center; }
 .pure-button-xsmall { font-size: 70%; }
 .pure-button-small { font-size: 85%; }
 .header { border-bottom: 1px solid #D9D9D9; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0); -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0); box-shadow: 0 1px 3px rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0); border-top: 3px solid #0B2237; }
